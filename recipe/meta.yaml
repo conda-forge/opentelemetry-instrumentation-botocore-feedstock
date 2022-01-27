@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-botocore" %}
-{% set version = "0.27b0" %}
+{% set version = "0.28b0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/opentelemetry-instrumentation-botocore-{{ version }}.tar.gz
-  sha256: 18aca48a1287560e571ececebc382d3d96b82083b08298169931f85548d52fdc
+  sha256: d2961c827869fbcafccf361dc7f6f91f1bc64b1bac36fc3444d1bd61fc1f6144
 
 build:
   number: 0
