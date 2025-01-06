@@ -24,6 +24,7 @@ requirements:
     - opentelemetry-api ~=1.12
     - opentelemetry-instrumentation ==0.50b0
     - opentelemetry-semantic-conventions ==0.50b0
+    - opentelemetry-propagator-aws-xray ~=1.0
     # - opentelemetry-test-utils ==0.37b0
     # - opentelemetry-instrumentation-botocore 
     # - moto ~=2.2.6
@@ -39,7 +40,6 @@ requirements:
     # - moto ~=2.2.6
     # - markupsafe ==2.0.1
     # - botocore ~=1.0
-    # - opentelemetry-propagator-aws-xray ~=1.0
     # - botocore ~=1.0
 
 test:
