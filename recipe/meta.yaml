@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-botocore" %}
-{% set version = "0.60b0" %}
+{% set version = "0.60b1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_botocore-{{ version }}.tar.gz
-  sha256: 320e6f5c20eb320f0ac34e41eca41eb9267a640ff454e82ddecc35b22a87bd96
+  sha256: 198e7d74b78b1b19ea47a5f2191171227557c37bfc4f49076958d129f848a8ed
 
 build:
   noarch: python
@@ -22,8 +22,8 @@ requirements:
   run:
     - python >={{ python_min }}
     - opentelemetry-api ~=1.37
-    - opentelemetry-instrumentation ==0.60b0
-    - opentelemetry-semantic-conventions ==0.60b0
+    - opentelemetry-instrumentation ==0.60b1
+    - opentelemetry-semantic-conventions ==0.60b1
     - opentelemetry-propagator-aws-xray ~=1.0
     # - opentelemetry-test-utils ==0.37b0
     # - opentelemetry-instrumentation-botocore 
@@ -39,6 +39,7 @@ requirements:
     # - opentelemetry-instrumentation-botocore 
     # - moto ~=2.2.6
     # - markupsafe ==2.0.1
+    # - botocore ~=1.0
     # - botocore ~=1.0
     # - botocore ~=1.0
     # - botocore ~=1.0
